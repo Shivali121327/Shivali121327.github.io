@@ -1,0 +1,207 @@
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  position: relative; }
+
+.left {
+  background-color: #F2784B;
+  height: 100vh; }
+  .left h1 {
+    color: #F2F1EF;
+    margin: auto;
+    position: relative;
+    top: 35vh;
+    padding-left: 12em;
+    font-family: "Handlee", cursive;
+    font-size: 5em; }
+  .left h2 {
+    color: #F2F1EF;
+    margin: auto;
+    position: relative;
+    top: 35vh;
+    font-family: "Handlee", cursive;
+    font-size: 5em; }
+  .left h3 {
+    color: #F2F1EF;
+    margin: auto;
+    position: relative;
+    top: 20vh;
+    padding-left: 6em;
+    font-family: "Handlee", cursive;
+    font-size: 5em; }
+
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  height: 5em;
+  background-color: #22313F; }
+  header li {
+    list-style: none;
+    display: inline-block;
+    font-size: 2em;
+    font-family: "Ropa Sans", sans-serif;
+    margin: 0.6em 0 0 2em;
+    cursor: pointer;
+    transition: all 0.5s ease-in; }
+  header a {
+    color: #F2F1EF; }
+
+.row a:hover {
+  color: #F2784B;
+  text-decoration: none; }
+
+span {
+  color: #F2F1EF;
+  font-family: "Handlee", cursive;
+  font-size: 1.4em; }
+
+.right {
+  background-color: #01A887;
+  height: 100vh; }
+  .right h2 {
+    color: #F2F1EF;
+    margin: auto;
+    position: relative;
+    top: 18vh;
+    font-family: "Handlee", cursive;
+    font-size: 5em;
+    margin-left: 7em; }
+  .right p {
+    color: #F2F1EF;
+    margin: auto;
+    position: relative;
+    top: 27vh;
+    text-align: left;
+    font-size: 1.9em;
+    font-family: "Poiret One", cursive; }
+  .right h3 {
+    color: #F2F1EF;
+    margin: auto;
+    position: relative;
+    top: 35vh;
+    font-family: "Handlee", cursive;
+    font-size: 5em; }
+
+.logo {
+  height: 100vh; }
+  .logo img {
+    position: relative;
+    max-width: 4em;
+    max-height: 4em;
+    display: block;
+    top: 13em;
+    margin: 0 0 1em 8em; }
+
+div.skill.dl-horizontal {
+  position: relative;
+  top: 25vh; }
+
+dd {
+  margin: 2em; }
+
+dt {
+  color: #F2F1EF; }
+
+div .progress .wow .zoomIn {
+  visibility: visible;
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+  animation-name: zoomIn;
+  -webkit-animation-name: zoomIn; }
+
+.skill .progress .progress-bar-info {
+  background-color: #F2784B; }
+
+.project-container {
+  margin-top: 25vh; }
+  .project-container .project {
+    position: relative;
+    width: 300px;
+    height: 250px; }
+    .project-container .project .project_onhover {
+      visibility: hidden;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      bottom: 0px;
+      right: 0px;
+      transform: scale(0);
+      transition: all 0.5s ease-in-out;
+      background-color: #F2784B; }
+
+.project:hover .project_onhover {
+  visibility: visible;
+  display: block;
+  transform: scale(1);
+  top: 0px; }
+
+img {
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition: all 0.5s ease-in-out; }
+
+.project:hover img {
+  opacity: 0; }
+
+h4 {
+  color: #F2F1EF;
+  margin: 1em 0 1em 5em; }
+
+hr {
+  border: 1px solid #F2F1EF;
+  margin: 0 4.5em 0 4em; }
+
+button {
+  margin: 1.5em 2em 1em 7.5em;
+  padding: 10px 25px;
+  border-radius: 3px;
+  border: 2px solid #F2F1EF;
+  background-color: #F2784B;
+  outline: none;
+  color: #F2F1EF;
+  font-weight: 700; }
+
+.text {
+  position: relative;
+  top: 20vh;
+  margin: 0 4em;
+  max-width: 50%;
+  font-size: 1.5em; }
+
+form#main-form {
+  position: relative;
+  top: 30vh;
+  margin-left: 25em; }
+
+button#submit-button {
+  margin: 1.5em 2.5em 0 0;
+  padding: 10px 25px;
+  border-radius: 3px;
+  border: 2px solid #F2F1EF;
+  background-color: #F2784B;
+  outline: none;
+  color: #F2F1EF;
+  font-weight: 700; }
+
+button#submit-button:hover {
+  margin: 1.5em 2.5em 0 0;
+  padding: 10px 25px;
+  border-radius: 3px;
+  border: 2px solid #F2F1EF;
+  background-color: rgba(255, 255, 255, 0.2);
+  outline: none;
+  color: #F2F1EF;
+  font-weight: 700; }
+
+.morphext > .animated {
+  display: inline-block; }

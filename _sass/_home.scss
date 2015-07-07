@@ -1,0 +1,242 @@
+body {
+	max-width: 100%;
+	overflow-x: hidden; 
+  position: relative;
+}
+
+.left {
+	background-color: $special-bg;
+	height: 100vh;
+	h1 {
+		color: $lighter-font-color;
+		margin: auto;
+		position: relative;
+	  top: 35vh;
+	  padding-left: 12em;
+	  font-family: $cursive-font;
+	  font-size: 5em;
+	}
+	h2 {
+		color: $lighter-font-color;
+		margin: auto;
+		position: relative;
+	  top: 35vh;
+	  font-family: $cursive-font;
+	  font-size: 5em;
+	}
+	h3 {
+		color: $lighter-font-color;
+		margin: auto;
+		position: relative;
+	  top: 20vh;
+	  padding-left: 6em;
+	  font-family: $cursive-font;
+	  font-size: 5em;
+	}
+}
+
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  height: 5em;
+	background-color: $header-bg;
+	li {
+		list-style: none;
+		display: inline-block;
+		font-size: 2em;
+		font-family: $sans-font;
+		margin: 0.6em 0 0 2em;
+		cursor: pointer;
+		transition: all 0.5s ease-in;
+  }
+  a {
+	  color: $lighter-font-color;
+  }
+}
+
+.row a:hover {
+	color: $special-bg;
+	text-decoration: none;
+}
+
+span {
+	color: $lighter-font-color;
+	font-family: $cursive-font;
+	font-size: 1.4em;
+}
+
+.right{
+  background-color: $body-bg;
+  height: 100vh;
+  h2 {
+	  color: $lighter-font-color;
+		margin: auto;
+		position: relative;
+	  top: 18vh;
+	  font-family: $cursive-font;
+	  font-size: 5em;
+	  margin-left: 7em;
+  }	
+  p {
+		color: $lighter-font-color;
+		margin: auto;
+		position: relative;
+	  top: 27vh;
+	  text-align: left;
+	  font-size: 1.9em;
+	  font-family: $funky-font;
+	}
+	h3 {
+		color: $lighter-font-color;
+		margin: auto;
+		position: relative;
+	  top: 35vh;
+	  font-family: $cursive-font;
+	  font-size: 5em;
+	}
+}
+
+.logo {
+  height: 100vh;
+  img {
+    position: relative;
+    max-width: 4em;
+    max-height: 4em;
+    display: block;
+    top: 13em;
+    margin: 0 0 1em 8em;
+  }
+}
+
+div.skill.dl-horizontal {
+	position: relative;
+	top: 25vh;
+}
+
+dd {
+	margin: 2em;
+}
+
+dt {
+	color: $lighter-font-color;
+}
+
+div .progress .wow .zoomIn {
+	visibility: visible; 
+	animation-duration: 3s; 
+	-webkit-animation-duration: 3s; 
+	animation-delay: 0s; 
+	-webkit-animation-delay: 0s; 
+	animation-name: zoomIn; 
+	-webkit-animation-name: zoomIn;
+}
+
+.skill .progress .progress-bar-info {
+  background-color: $special-bg;
+}
+
+.project-container {
+	margin-top: 25vh;
+	.project {
+	  position: relative;
+    width: 300px;
+	  height: 250px;
+	  .project_onhover {
+		  visibility: hidden;
+		  position: absolute;
+		  top: 0px;
+		  left:0px;
+		  bottom: 0px;
+		  right: 0px;
+		  transform: scale(0);
+		  transition: all 0.5s ease-in-out;
+		  background-color: $special-bg;
+		}
+	}
+}
+
+.project:hover .project_onhover {
+  visibility: visible;
+  display: block;
+  transform: scale(1);
+  top:0px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition: all 0.5s ease-in-out;
+}
+
+.project:hover img {
+  opacity: 0;
+}
+
+h4 {
+	color: $lighter-font-color;
+	margin: 1em 0 1em 5em;
+}
+
+hr {
+	border: 1px solid $lighter-font-color;
+	margin: 0 4.5em 0 4em;
+}
+
+button {
+  margin: 1.5em 2em 1em 7.5em;
+  padding: 10px 25px;
+  border-radius: 3px;
+  border: 2px solid $lighter-font-color;
+  background-color: $special-bg;
+  outline: none;
+  color: $lighter-font-color;
+  font-weight: 700;
+}
+
+.text {
+  position: relative;
+  top: 20vh;
+  margin: 0 4em;
+	max-width:50%;
+	font-size: 1.5em;
+}
+
+form#main-form {
+	position: relative;
+  top: 30vh;
+  margin-left: 25em;
+}
+
+button#submit-button {
+	margin: 1.5em 2.5em 0 0;
+  padding: 10px 25px;
+  border-radius: 3px;
+  border: 2px solid $lighter-font-color;
+  background-color: $special-bg;
+  outline: none;
+  color: $lighter-font-color;
+  font-weight: 700;
+}
+
+button#submit-button:hover {
+	margin: 1.5em 2.5em 0 0;
+  padding: 10px 25px;
+  border-radius: 3px;
+	border: 2px solid $lighter-font-color;
+  background-color: rgba(255, 255, 255, 0.2);
+  outline: none;
+  color: $lighter-font-color;
+  font-weight: 700;
+}
+
+.morphext > .animated {
+    display: inline-block;
+}

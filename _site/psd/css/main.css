@@ -1,0 +1,183 @@
+.vcenter {
+  color: #83888C;
+  position: relative;
+  top: 10%;  
+  left:80px;
+}
+
+i{
+  color:#ffffff;
+  z-index:1000;
+  position:absolute;
+  top:10vh;
+  right:500px;
+}
+
+header.active {
+  left:0;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: -12vw;
+    text-align: left;
+    height: 100vh;
+    background-color: #E8A904;
+    z-index: 999;
+    padding-top: 8vw;
+    width: 12vw;
+    transition: left 0.5s ease-in;
+  }
+  
+a {
+      background-color: #E8A904;
+      color:#ffffff;
+      display: block;
+      font-size: 1.2vw;
+      padding: 0.5em 2em;
+      text-decoration: none;
+      transition: all 0.3s ease-in;
+    }
+a:hover {
+      color: #1E2327;
+      padding: 0.5em 1.5em;
+      text-decoration:none;
+  }
+
+button {
+		margin: 1em 20em 0 0;
+		padding: 7px 7px;
+		border-radius: 3px;
+		border: 2px solid #83888C;
+		background-color: #1E2327;
+		outline:none;
+		color: #83888C;
+		font-weight: 600;
+	}
+.line hr {
+  max-height:1%;
+  max-width:14%;
+  margin: 2em 0 3em 7.5em;
+}
+
+hr {
+  border: 1px solid #697B8C;
+  margin:5em 6em 0 13em;
+  max-width:15%;
+}
+
+
+.carousel-indicators {
+  position: absolute;
+  top: 130px;
+  left: 38%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+}
+
+.carousel-inner {
+  position:relative;
+  bottom:28vh;
+  z-index:1000;
+  left:77.5%;
+}
+
+#myCarousel .carousel-indicators {
+  top:80vh;
+  right:450px;
+}
+
+#myCarousel .carousel-inner {
+  top:20vh;
+  left:0px;
+}
+
+#myCarousel .carousel-inner .item img,
+#myCarousel .carousel-inner .item a img {
+  width: 79%;
+  margin: auto;
+}
+
+.about {
+		position: relative;
+	  top: 20%;  
+	  transform: translateY(-10%);
+}
+
+#last_img {
+  position:relative;
+  top:15%;
+  max-height:60%;
+}
+#text {
+	background-color:#1E2327;
+	height: 100vh;
+  text-align: center;
+  padding: 0px;
+	margin: 0px;
+}
+
+#pics {
+	background-color: #E8A904;
+	height: 100vh;
+	padding: 0px;
+}
+
+#pics p {
+  position:absolute;
+  top:72%;
+  left:9px;
+  margin:0px;
+  color:#ffffff;
+}
+
+#pics .about p {
+  margin:0 20em 0 9em;
+  color:#1E2327;
+}
+
+#para {
+  color: #FFB800;
+}
+
+#logo {
+  left:0px;
+	max-width: 70%;
+	max-height: 60%;
+	float: left;
+	cursor:pointer;
+	z-index:1000;
+	top:11vh;
+	color:#ffffff;
+}
+
+h3 {
+	margin: 0 8em 0 4.5em;
+	text-align: left;
+}
+
+h2 {
+  text-align:left;
+  margin:1em 0 0 3.5em;
+}
+
+p {
+	font-size: 0.9vw;
+	text-align: left;
+	margin: 0 20em 0 9em;
+	
+}
+
+img {
+	max-width: 90%;
+	max-height: 70%;
+	position: relative;
+	top: 10%;
+	float: left;
+}
+
