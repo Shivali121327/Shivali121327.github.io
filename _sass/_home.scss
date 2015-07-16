@@ -1,3 +1,13 @@
+.nav-tabs {
+  border-bottom: none;
+  left: 31vw;
+}
+
+.nav>li>a {
+  position: relative;
+  padding: 5.3px 15px;
+}
+
 body {
 	max-width: 100%;
 	overflow-x: hidden; 
@@ -6,13 +16,13 @@ body {
 
 .left {
 	background-color: $special-bg;
-	height: 100vh;
+	min-height: 100vh;
 	h1 {
 		color: $lighter-font-color;
 		margin: auto;
 		position: relative;
 	  top: 35vh;
-	  padding-left: 12em;
+	  left: 58vw;
 	  font-family: $cursive-font;
 	  font-size: 5em;
 	}
@@ -29,7 +39,7 @@ body {
 		margin: auto;
 		position: relative;
 	  top: 20vh;
-	  padding-left: 6em;
+	  left: 27vw;
 	  font-family: $cursive-font;
 	  font-size: 5em;
 	}
@@ -70,21 +80,21 @@ span {
 
 .right{
   background-color: $body-bg;
-  height: 100vh;
+  min-height: 100vh;
   h2 {
 	  color: $lighter-font-color;
 		margin: auto;
 		position: relative;
-	  top: 18vh;
+	  top: 21vh;
 	  font-family: $cursive-font;
 	  font-size: 5em;
-	  margin-left: 7em;
+	  left: 30vw;
   }	
   p {
 		color: $lighter-font-color;
 		margin: auto;
 		position: relative;
-	  top: 27vh;
+	  top: 30vh;
 	  text-align: left;
 	  font-size: 1.9em;
 	  font-family: $funky-font;
@@ -99,16 +109,18 @@ span {
 	}
 }
 
-.logo {
-  height: 100vh;
-  img {
-    position: relative;
-    max-width: 4em;
-    max-height: 4em;
-    display: block;
-    top: 13em;
-    margin: 0 0 1em 8em;
-  }
+dt img.logo {
+  position: relative;
+  height: 4em;
+  display: block;
+}
+
+dt p.para {
+  font-size: 1em;
+  color: $lighter-font-color;
+  position: relative;
+  top: 0vh;
+  text-align: center;
 }
 
 div.skill.dl-horizontal {
@@ -122,6 +134,14 @@ dd {
 
 dt {
 	color: $lighter-font-color;
+  padding-left: 7em;
+}
+
+.progress {
+  margin-top: 3vh;
+  margin-left: 10vw;
+  height: 2vh;
+  width: 40vw;
 }
 
 div .progress .wow .zoomIn {
@@ -141,6 +161,7 @@ div .progress .wow .zoomIn {
 .project-container {
 	margin-top: 25vh;
 	.project {
+    margin-bottom: 9vh;
 	  position: relative;
     width: 300px;
 	  height: 250px;
@@ -211,7 +232,7 @@ button {
 
 form#main-form {
 	position: relative;
-  top: 30vh;
+  padding-top: 30vh;
   margin-left: 25em;
 }
 
